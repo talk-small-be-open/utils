@@ -1,0 +1,3 @@
+as yet unclassified
+readObjectFromSixxFileNamed: aFilename
+	self signalSubclassResponsibility

@@ -1,0 +1,3 @@
+as yet unclassified
+runShellCommand: aShellCommandString
+	self signalSubclassResponsibility

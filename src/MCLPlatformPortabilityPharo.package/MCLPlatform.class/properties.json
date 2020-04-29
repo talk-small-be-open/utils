@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MCLPlatformAbstract",
+	"category" : "MCLPlatformPortabilityPharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCLPlatform",
+	"type" : "normal"
+}
