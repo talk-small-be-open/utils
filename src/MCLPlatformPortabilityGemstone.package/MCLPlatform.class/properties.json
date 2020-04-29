@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MCLPlatformAbstract",
+	"category" : "MCLPlatformPortabilityGemstone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCLPlatform",
+	"type" : "normal"
+}
