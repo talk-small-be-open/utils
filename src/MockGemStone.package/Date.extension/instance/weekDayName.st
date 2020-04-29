@@ -1,0 +1,3 @@
+*MockGemStone
+weekDayName
+	^ self weekday

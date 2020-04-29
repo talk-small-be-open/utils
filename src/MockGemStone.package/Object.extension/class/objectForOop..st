@@ -1,0 +1,2 @@
+*MockGemstone
+objectForOop: aPositiveInt

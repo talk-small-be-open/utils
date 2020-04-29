@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Dictionary",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RcKeyValueDictionary",
+	"type" : "normal"
+}

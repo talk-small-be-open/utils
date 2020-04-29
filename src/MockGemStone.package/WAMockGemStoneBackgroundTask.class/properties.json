@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MockGemstone-ServiceTask",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"futureValue",
+		"exception",
+		"lock"
+	],
+	"name" : "WAMockGemStoneBackgroundTask",
+	"type" : "normal"
+}
