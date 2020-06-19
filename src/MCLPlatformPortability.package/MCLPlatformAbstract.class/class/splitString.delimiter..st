@@ -1,3 +1,3 @@
 as yet unclassified
-splitString: aString delimiter: aDelimiter
-	self signalSubclassResponsibility
+splitString: aCollection delimiter: aDelimiter
+	^ self splitCollection: aCollection delimiter: aDelimiter
