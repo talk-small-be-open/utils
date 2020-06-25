@@ -1,8 +1,6 @@
 as yet unclassified
 runShellCommand: aShellCommandString
-	| shellOutput exitCode pipeClass shell  |
-
-	"shellOutput := (PipeableOSProcess command: aShellCommandString) output."
+	| shellOutput shell  exitCode |
 
 	Transcript
 		cr;
@@ -18,12 +16,9 @@ runShellCommand: aShellCommandString
 		nbClass run: aShellCommandString.
 	]."
 
-	pipeClass := Smalltalk 
+	Smalltalk 
 		at: #PipeableOSProcess
-		ifAbsent: [nil].
-
-	pipeClass isNil
-		ifFalse: [
+		ifPresent: [:pipeClass |
 			| output |
 			shell := pipeClass waitForCommand: aShellCommandString.
 			[
@@ -33,9 +28,19 @@ runShellCommand: aShellCommandString
 			] ensure: [
 			shell
 				closePipes;
-				release ]]
-		ifTrue: [
-			shellOutput := '(command not run, no PipeableOSProcess)'].
+				release ]].
 
+	Smalltalk at: #OSSUnixSubprocess ifPresent: [ :class |
+		class new
+			shellCommand: aShellCommandString;
+"			arguments: #('-la' '/Users');"
+			redirectStdout;
+			runAndWaitOnExitDo: [ :process :outString |
+				shellOutput := outString.
+			]
+	].
+		
+	shellOutput ifNil: [
+		shellOutput := '(command not run, no PipeableOSProcess)'].
 
-		^shellOutput
+	^shellOutput
