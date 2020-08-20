@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"file:writeStreamDo:" : "06/03/2020 08:47:11",
+		"joinCollection:delimiter:" : "06/03/2020 08:47:11",
+		"readObjectFromSixxFileNamed:" : "06/03/2020 08:47:11",
+		"runShellCommand:" : "06/03/2020 08:47:11",
+		"splitCollection:delimiter:" : "AndreasBrodbeck 06/19/2020 10:02",
+		"splitString:delimiter:" : "06/03/2020 08:47:11",
+		"waitForMilliseconds:" : "06/03/2020 08:47:11",
+		"writeObject:toSixxFile:inFolder:" : "06/03/2020 08:47:11" },
+	"instance" : {
+		 } }
