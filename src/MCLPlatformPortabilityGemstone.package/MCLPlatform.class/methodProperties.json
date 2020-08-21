@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"file:binaryWriteStreamDo:" : "AndreasBrodbeck 08/21/2020 08:17",
 		"file:writeStreamDo:" : "06/03/2020 08:47:11",
 		"joinCollection:delimiter:" : "06/03/2020 08:47:11",
 		"readObjectFromSixxFileNamed:" : "06/03/2020 08:47:11",
