@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IdentitySet",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RcIdentitySet",
+	"type" : "normal"
+}
