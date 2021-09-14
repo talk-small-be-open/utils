@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Notification",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Admonition",
+	"type" : "normal"
+}
