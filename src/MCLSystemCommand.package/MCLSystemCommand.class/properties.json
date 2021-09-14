@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MCLSystemCommand",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"command",
+		"result",
+		"stdin",
+		"exitCode",
+		"async"
+	],
+	"name" : "MCLSystemCommand",
+	"type" : "normal"
+}
