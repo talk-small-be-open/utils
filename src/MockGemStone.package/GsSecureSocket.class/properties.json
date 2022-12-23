@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GsSocket",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GsSecureSocket",
+	"type" : "normal"
+}
