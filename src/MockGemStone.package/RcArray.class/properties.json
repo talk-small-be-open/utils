@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OrderedCollection",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RcArray",
+	"type" : "normal"
+}

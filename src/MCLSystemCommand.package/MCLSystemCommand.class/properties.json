@@ -4,7 +4,9 @@
 	"category" : "MCLSystemCommand",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"AdditionalPathsEnv"
+	],
 	"instvars" : [
 		"command",
 		"result",

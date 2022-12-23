@@ -1,9 +1,18 @@
 executing
 run
 	| commandLine output lastLine outputLines | 
-	commandLine := command, '; echo $?'.
+	commandLine := String streamContents: [ :s |
+		AdditionalPathsEnv ifNotBlank: [
+			s << 'export PATH="'.
+			s << AdditionalPathsEnv.
+			s << ':$PATH"; '
+		].
+		
+		s << command.
+		s << '; echo $?'.
 
-	async ifTrue: [commandLine := commandLine, ' &'].
+		async ifTrue: [
+			s << ' &']].
 	
 "	stdin ifNotNil: [MCPlatform ]..."
 	
