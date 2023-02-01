@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ServerFileDirectory",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClientFileDirectory",
+	"type" : "normal"
+}

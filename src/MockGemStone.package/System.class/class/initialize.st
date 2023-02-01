@@ -7,5 +7,5 @@ initialize
 	stats := Array new: 48.
 	persistentCounter := Array new: 128 withAll: 0.
 	locks := IdentityDictionary new.
-	self fakeStoneStartup.
-	
+	inTransaction := false.
+	self fakeStoneStartup

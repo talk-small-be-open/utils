@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"RestoreActive"
+	],
+	"instvars" : [ ],
+	"name" : "SystemRepository",
+	"type" : "normal"
+}

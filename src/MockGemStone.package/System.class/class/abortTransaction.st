@@ -1,3 +1,3 @@
 Transactions
 abortTransaction
-	^ true
+	inTransaction :=true
