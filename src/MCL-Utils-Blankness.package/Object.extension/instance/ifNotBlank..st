@@ -1,5 +1,5 @@
 *mcl-utils-blankness
 ifNotBlank: aBlock
-	^self isBlank
+	^ self isBlank
 		ifTrue: [self]
 		ifFalse: [aBlock cull: self]
