@@ -2,6 +2,7 @@ as yet unclassified
 splitString: aString delimiter: splitChar
   | lines index nextIndex |
   lines := OrderedCollection new.
+  aString ifEmpty: [ lines add: aString ].
   index := 1.
   [ index <= aString size ]
     whileTrue: [ 

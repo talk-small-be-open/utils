@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #MCLPlatformPortabilityGemstone!
+SystemOrganization addCategory: #'MCLPlatformPortabilityGemstone'!
