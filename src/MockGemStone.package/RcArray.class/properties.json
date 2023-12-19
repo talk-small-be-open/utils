@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RcQueue",
+	"name" : "RcArray",
 	"type" : "normal"
 }

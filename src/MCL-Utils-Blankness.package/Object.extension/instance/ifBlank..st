@@ -2,4 +2,4 @@
 ifBlank: aBlock
 	^self isBlank
 		ifTrue: aBlock
-		ifFalse: self
+		ifFalse: [ self ]

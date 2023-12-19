@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AndreasBrodbeck 6/20/2012 17:18",
+	"super" : "Object",
+	"category" : "MCLSmalltalkTemplate",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCLSmalltalkTemplateData",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 as yet unclassified
-max
-	^collection max
+hash
+	^array hash
