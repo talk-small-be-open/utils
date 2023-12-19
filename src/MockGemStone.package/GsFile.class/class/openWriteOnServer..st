@@ -1,3 +1,3 @@
 as yet unclassified
-openWriteOnServer: aFileName
-	^FileStream forceNewFileNamed: aFileName
+openWriteOnServer: aFilePath
+	^aFilePath asFileReference writeStream.	

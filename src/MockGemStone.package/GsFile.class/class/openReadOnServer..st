@@ -1,5 +1,3 @@
 as yet unclassified
-openReadOnServer: aFileName
-	^(FileStream readOnlyFileNamed: aFileName)
-		ascii;
-		yourself
+openReadOnServer: aFilePath
+	^aFilePath asFileReference readStream.	

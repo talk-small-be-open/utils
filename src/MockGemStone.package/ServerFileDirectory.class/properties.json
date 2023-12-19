@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"directoryPath",
+		"fileName"
+	],
 	"name" : "ServerFileDirectory",
 	"type" : "normal"
 }

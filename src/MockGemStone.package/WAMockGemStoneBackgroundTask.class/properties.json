@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "MockGemstone-ServiceTask",
+	"category" : "MockGemStone",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
