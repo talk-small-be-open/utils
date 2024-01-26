@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"file:binaryWriteStreamDo:" : "AndreasBrodbeck 08/21/2020 08:17",
-		"file:writeStreamDo:" : " 06/03/2020 08:47:11",
-		"joinCollection:delimiter:" : " 06/03/2020 08:47:11",
-		"readObjectFromSixxFileNamed:" : " 06/03/2020 08:47:11",
-		"runShellCommand:" : " 06/03/2020 08:47:11",
-		"splitCollection:delimiter:" : "AndreasBrodbeck 06/19/2020 10:02",
+		"dateFromIsoString:" : "AndreasBrodbeck 01/26/2024 15:27",
+		"file:binaryWriteStreamDo:" : " 11/22/2021 10:42:38",
+		"file:writeStreamDo:" : " 11/22/2021 10:42:38",
+		"joinCollection:delimiter:" : " 11/22/2021 10:42:38",
+		"readObjectFromSixxFileNamed:" : " 11/22/2021 10:42:38",
+		"runShellCommand:" : " 11/22/2021 10:42:38",
+		"splitCollection:delimiter:" : " 11/22/2021 10:42:38",
 		"splitString:delimiter:" : "AndreasBrodbeck 04/25/2023 08:16",
-		"waitForMilliseconds:" : " 06/03/2020 08:47:11",
-		"writeObject:toSixxFile:inFolder:" : " 06/03/2020 08:47:11" },
+		"waitForMilliseconds:" : " 11/22/2021 10:42:38",
+		"writeObject:toSixxFile:inFolder:" : " 11/22/2021 10:42:38" },
 	"instance" : {
 		 } }
