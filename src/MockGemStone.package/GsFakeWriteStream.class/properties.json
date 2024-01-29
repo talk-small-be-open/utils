@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"collection"
+		"realStream"
 	],
-	"name" : "RcQueue",
+	"name" : "GsFakeWriteStream",
 	"type" : "normal"
 }

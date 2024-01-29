@@ -1,3 +1,3 @@
 as yet unclassified
 on: aDirectoryPath
-	^self new directoryPath:aDirectoryPath ; yourself
+	^ self new directoryPath: aDirectoryPath; yourself
