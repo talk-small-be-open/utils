@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "broa 4/22/2009 18:15",
+	"super" : "Object",
+	"category" : "MCLSendEmail",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SmtpPassword",
+		"SmtpServer",
+		"SmtpUser"
+	],
+	"instvars" : [
+		"to",
+		"from",
+		"subject",
+		"body",
+		"cc",
+		"bcc",
+		"replyTo",
+		"returnPath",
+		"smtpServer",
+		"smtpUser",
+		"smtpPassword",
+		"sendEmailBinary"
+	],
+	"name" : "MCLSendEmail",
+	"type" : "normal"
+}

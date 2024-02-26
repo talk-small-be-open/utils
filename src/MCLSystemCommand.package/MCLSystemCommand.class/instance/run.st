@@ -2,7 +2,7 @@ executing
 run
 	| commandLine output lastLine outputLines | 
 	commandLine := String streamContents: [ :s |
-		AdditionalPathsEnv ifNotBlank: [
+		AdditionalPathsEnv isEmptyOrNil ifFalse: [
 			s << 'export PATH="'.
 			s << AdditionalPathsEnv.
 			s << ':$PATH"; '
