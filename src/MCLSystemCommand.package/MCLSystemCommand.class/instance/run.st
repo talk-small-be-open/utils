@@ -9,10 +9,13 @@ run
 		].
 		
 		s << command.
-		s << '; echo $?'.
 
 		async ifTrue: [
-			s << ' &']].
+			s << ' &' ] ifFalse: [ 
+			s << '; echo $?'
+		]
+		
+		].
 	
 "	stdin ifNotNil: [MCPlatform ]..."
 	

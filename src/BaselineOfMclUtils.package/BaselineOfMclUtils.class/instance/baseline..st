@@ -40,8 +40,6 @@ baseline: spec
 				requires: #('Seaside3')
 		].
 			
-		spec group: 'Core' with: #('MCLPlatformPortabilityPharo')
-
 	].
 
 
