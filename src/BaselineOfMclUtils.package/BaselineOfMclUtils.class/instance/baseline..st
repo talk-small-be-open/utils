@@ -17,6 +17,8 @@ baseline: spec
 			spec package: 'MCL-Utils-CollectionSugar' with: [ ].
 			spec package: 'MCL-Utils-Blankness' with: [ ].
 
+			spec package: 'MCLWaPingRequestHandler' with: [  ].
+
 			spec group: 'default' with: #('').
 
 		].

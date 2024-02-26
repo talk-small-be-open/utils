@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WARequestHandler",
+	"category" : "MCLWaPingRequestHandler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MCLWaPingRequestHandler",
+	"type" : "normal"
+}
