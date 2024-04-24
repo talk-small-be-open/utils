@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "AndreasBrodbeck 11/13/2011 21:08",
 	"super" : "MCLPlatformAbstract",
 	"category" : "MCLPlatformPortabilityGemstone",
 	"classinstvars" : [ ],

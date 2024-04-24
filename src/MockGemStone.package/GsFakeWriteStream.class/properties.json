@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MockGemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"realStream"
+	],
+	"name" : "GsFakeWriteStream",
+	"type" : "normal"
+}

@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "OrderedCollection",
+	"super" : "Object",
 	"category" : "MockGemStone",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"collection"
+	],
 	"name" : "RcQueue",
 	"type" : "normal"
 }

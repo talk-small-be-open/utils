@@ -1,3 +1,3 @@
 adding
 add: anObject 
-	self addLast: anObject
+	^ collection add: anObject
