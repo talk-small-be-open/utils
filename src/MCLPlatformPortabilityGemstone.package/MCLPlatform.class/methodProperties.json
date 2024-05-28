@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"dateFromIsoString:" : "AndreasBrodbeck 01/23/2024 17:27",
+		"file:binaryWriteStreamDo:" : " 05/28/2024 11:56:56",
+		"file:writeStreamDo:" : " 05/28/2024 11:56:56",
+		"joinCollection:delimiter:" : " 05/28/2024 11:56:56",
+		"readObjectFromSixxFileNamed:" : " 05/28/2024 11:56:56",
+		"runShellCommand:" : " 05/28/2024 11:56:56",
+		"splitCollection:delimiter:" : " 05/28/2024 11:56:56",
+		"splitString:delimiter:" : "AndreasBrodbeck 04/25/2023 08:16",
+		"waitForMilliseconds:" : " 05/28/2024 11:56:56",
+		"writeObject:toSixxFile:inFolder:" : " 05/28/2024 11:56:56" },
+	"instance" : {
+		 } }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "AndreasBrodbeck 11/13/2011 21:08",
-	"super" : "MCLPlatformAbstract",
 	"category" : "MCLPlatformPortabilityGemstone",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreasBrodbeck 11/13/2011 21:08",
+	"instvars" : [
+		 ],
 	"name" : "MCLPlatform",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MCLPlatformAbstract",
+	"type" : "normal" }
