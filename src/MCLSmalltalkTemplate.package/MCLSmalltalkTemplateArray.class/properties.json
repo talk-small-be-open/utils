@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MCLSmalltalkTemplateData",
+	"category" : "MCLSmalltalkTemplate",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"array"
+	],
+	"name" : "MCLSmalltalkTemplateArray",
+	"type" : "normal"
+}

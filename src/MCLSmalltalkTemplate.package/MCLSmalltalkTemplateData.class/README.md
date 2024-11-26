@@ -1,0 +1,1 @@
+I am the base class of all object types which can be delivered into a template
