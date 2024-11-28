@@ -1,3 +1,6 @@
 as yet unclassified
 removeAll
-	^collection removeAll
+	| all |
+	all := collection copy asArray.
+	collection removeAll.
+	^ all
