@@ -19,7 +19,7 @@ runShellCommandPharoFix: aShellCommandString
 		cr;
 		show: 'Runs system command: ';
 		show: wrapperScriptPath;
-		space;
+		show: ' with args: ';
 		show: args;
 		cr.
 
